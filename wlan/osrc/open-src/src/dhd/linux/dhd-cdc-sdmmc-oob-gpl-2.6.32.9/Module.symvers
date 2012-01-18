@@ -1,0 +1,2 @@
+0x991d933b	bcmsdh_remove	/media/extra/cm9/vendor/bcm/wlan/osrc/open-src/src/dhd/linux/dhd-cdc-sdmmc-oob-gpl-2.6.32.9/dhd	EXPORT_SYMBOL
+0xa5c1a59b	bcmsdh_probe	/media/extra/cm9/vendor/bcm/wlan/osrc/open-src/src/dhd/linux/dhd-cdc-sdmmc-oob-gpl-2.6.32.9/dhd	EXPORT_SYMBOL
