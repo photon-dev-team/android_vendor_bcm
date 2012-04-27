@@ -28,14 +28,14 @@ $(error ********************** ANDROID_BUILD_TOP  not set please follow release 
 endif
 
 ifeq ($(LINUXSRCDIR),)
-LINUXSRCDIR := $(ANDROID_BUILD_TOP)/kernel/moto/sunfire
+LINUXSRCDIR := $(ANDROID_BUILD_TOP)/kernel
 endif
 
 ifeq ($(LINUXBUILDDIR),)
-LINUXBUILDDIR := $(KERNEL_OUT)
+LINUXBUILDDIR := $(LINUXSRCDIR)
 endif
 
-BCM_INSTALLDIR := $(ANDROID_BUILD_TOP)/kernel/moto/olympus/wifi-module/wlan/osrc/open-src/src/dhd/linux
+BCM_INSTALLDIR := $(ANDROID_BUILD_TOP)/vendor/bcm/wlan/osrc/open-src/src/dhd/linux
 
 # Try a couple of places for LINUXBUILDDIR if not specified
 ifeq ($(LINUXBUILDDIR),)
